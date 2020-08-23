@@ -14,7 +14,6 @@
 
 .wrapper {
     margin-top: 0 auto;
-    background-color: rgb(242, 242, 242);
     justify-content: center;
     align-items: center;
 }
@@ -29,11 +28,12 @@ h1,
     padding-bottom: 30px;
     font-family: 'Playfair Display', serif;
     font-size: semi-bold 600;
-    background-image: url(assets/33748.jpg);
+    background: url(assets/33748.jpg);
 }
 
 .container {
-    box-shadow: 0 0 3px 1px rgba(35, 158, 138, 0.705);
+    box-shadow: 0 0 3px 1px;
+    /* rgba(35, 158, 138, 0.705); */
     margin-left: 60px;
     margin-right: 60px;
     padding: 20px;
@@ -42,29 +42,43 @@ h1,
 
 /* //About me page// */
 
+.media-body {
+    margin-right: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+}
+
 #text {
     font-family: 'Cormorant Garamond', serif;
 }
 
-#h5 {
-    font-family: 'Playfair Display', serif;
-}
-
 .mt-0 {
     font-size: 30x;
+    font-family: 'Playfair Display', serif;
+    color: rgb(39, 44, 43)
+}
+
+#img-thumbind {
+    padding: 20px;
+    border: line;
+    max-width: 280px;
+    max-height: 230px;
 }
 
 #img-thumb {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 300px;
+    max-height: 300px;
     padding: 20px;
     border: line
 }
 
 #img-thumbContact {
-    max-width: 40px;
-    max-height: 40px;
-    padding: 2px;
+    margin-top: 10px;
+    max-width: 60px;
+    max-height: 90px;
+    padding: 10px;
 }
 
 
@@ -116,15 +130,15 @@ a:active {
 }
 
 a:focus {
-    color: rgb(39, 44, 43)
-}
-
-a:visited {
     color: rgb(52, 70, 65);
 }
 
-a:link {
+a:visited {
     color: rgb(68, 119, 115);
+}
+
+a:link {
+    color: rgb(39, 44, 43)
 }
 
 #contact-info {
