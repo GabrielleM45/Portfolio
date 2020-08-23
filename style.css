@@ -18,6 +18,10 @@
     align-items: center;
 }
 
+.nav.navbar {
+    font: rgba(31, 35, 41, 0.863);
+}
+
 h1,
 #cardfoot {
     color: #f8f8fa;
@@ -32,8 +36,7 @@ h1,
 }
 
 .container {
-    box-shadow: 0 0 3px 1px;
-    /* rgba(35, 158, 138, 0.705); */
+    box-shadow: 0 1px 8px 3px rgba(21, 100, 74, 0.781);
     margin-left: 60px;
     margin-right: 60px;
     padding: 20px;
@@ -54,10 +57,16 @@ h1,
     font-family: 'Cormorant Garamond', serif;
 }
 
-.mt-0 {
-    font-size: 30x;
+s .mt-0,
+h5 {
+    font-size: 40x;
     font-family: 'Playfair Display', serif;
     color: rgb(39, 44, 43)
+}
+
+#img-thumblogo {
+    width: 80px;
+    height: 90px;
 }
 
 #img-thumbind {
@@ -81,52 +90,12 @@ h1,
     padding: 10px;
 }
 
-
-/* Style inputs with type="text", select elements and textareas */
-
-input[type=text],
-select,
-textarea {
-    width: 100%;
-    /* Full width */
-    padding: 12px;
-    /* Some padding */
-    border: 1px solid #ccc;
-    /* Gray border */
-    border-radius: 4px;
-    /* Rounded borders */
-    box-sizing: border-box;
-    /* Make sure that padding and width stays in place */
-    margin-top: 6px;
-    /* Add a top margin */
-    margin-bottom: 16px;
-    /* Bottom margin */
-    resize: vertical, /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-
-/* This is not currently working and has been changed to a a bootstrap primary active state button to simulate submitting.
-leaving css code in place so that when html is updated the code will be here*/
-
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
 input[type=submit]:hover {
     background-color: #4f9ecc;
 }
 
 a:hover {
     color: rgb(238, 241, 233);
-}
-
-a:active {
-    color: rgb(15, 148, 172);
 }
 
 a:focus {
@@ -138,35 +107,12 @@ a:visited {
 }
 
 a:link {
-    color: rgb(39, 44, 43)
+    color: rgba(30, 40, 53, 0.945)
 }
 
 #contact-info {
     background: rgb(128, 34, 34);
 }
-
-
-/* contact page/*/
-
-.containerform {
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px auto;
-    margin-bottom: 10px;
-}
-
-.btn {
-    margin-left: 5px;
-    padding: 20px;
-}
-
-
-/* .card {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-} */
 
 @media screen and (max-width: 768px) {
     body {
